@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color:darkgray;
+        }
+        h1{
+            font-weight: 100;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-weight: 100;
+        }
+        button{
+            width: 80px;
+            padding: 1%;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Counter</h1>
+    <p id="results">0</p>
+
+    <button id="Less" onclick="addLess()">Less</button>
+    <button id="Reset" onclick="addReset()">Reset</button>
+    <button id="More" onclick="addMore()">More</button>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
